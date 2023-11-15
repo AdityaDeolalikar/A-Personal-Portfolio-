@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;900&family=Poppins:wght@500&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aditya - portfolio</title>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(32, 20, 82);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background-color: rgb(34, 25, 61);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+      nav ul li a:hover {
+        color: rgb(130, 130, 200);
+        font-size: 1.3rem;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .right {
+        font-size: 1.2rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 100px 0;
+      }
+      .firstSection > div {
+        width: 40%;
+        align-items: center;
+      }
+      .leftSection {
+        font-size: 3.2rem;
+        margin: 70px 0;
+      }
+      .rightSection img {
+        width: 70%;
+        margin-top: 60px;
+      }
+      .purple {
+        color: rgb(169, 139, 220);
+      }
+      .text-grey {
+        color: grey;
+      }
+      #element {
+        color: rgb(185, 158, 232);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.5rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      main hr {
+        height: 1.2px;
+        margin: 40px 84px;
+        background-color: rgb(95, 38, 228);
+      }
+      .vertical-title {
+        position: relative;
+        top: 96px;
+        width: 150px;
+      }
+      .vertical-disc {
+        position: relative;
+        top: 106px;
+        color: grey;
+        width: 150px;
+        font-size: 9px;
+      }
+      footer {
+        background-color: rgb(194, 222, 246);
+        color: black;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+
+      .footer ul {
+        list-style: none;
+        text-decoration: none;
+      }
+
+      .footer > div {
+        width: 223px;
+      }
+      .footer-rights {
+        color: grey;
+        text-align: center;
+        padding: 12px 0;
+      }
+      .leftSection .btn{
+        padding: 12px;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 15px;
+        background-color: rgb(101, 44, 215);
+        color: white;
+        cursor: pointer;
+        
+      }
+
+      .leftSection .buttons{
+        padding: 23px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Aditya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Aditya</span>
+          <div>I am a passionate</div>
+
+          <span id="element"></span>
+
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+
+        <div class="rightSection">
+          <img src="development-4536630_1920.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">WHAT I HAVE DONE SO FAR, MY</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <div class="vertical-title">HTML developer (2018-2021)</div>
+            <div class="vertical-disc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae delectus id deserunt ex rem voluptas praesentium
+              aspernatur quisquam quis aperiam. Error, magnam possimus!
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Node js developer (2018-2021)</div>
+            <div class="vertical-disc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae delectus id deserunt ex rem voluptas praesentium
+              aspernatur quisquam quis aperiam. Error, magnam possimus!
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Programmer (2018-2021)</div>
+            <div class="vertical-disc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae delectus id deserunt ex rem voluptas praesentium
+              aspernatur quisquam quis aperiam. Error, magnam possimus!
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">HTML developer (2018-2021)</div>
+            <div class="vertical-disc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae delectus id deserunt ex rem voluptas praesentium
+              aspernatur quisquam quis aperiam. Error, magnam possimus!
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first"><h3>Aditya's Portfolio</h3></div>
+        <div class="footer-second">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Skills</li></a>
+            <a href=""><li>Contact me</li></a>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Skills</li></a>
+            <a href=""><li>Contact me</li></a>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href=""><li>About</li></a>
+            <a href=""><li>Skills</li></a>
+            <a href=""><li>Contact me</li></a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        AdityaDeoPortfolio.com | All rights reserved &#169
+      </div>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Abstract Designer", "Learner", "Web Developer"],
+      typeSpeed: 50,
+      
+    });
+
+  </script>
+</html>
